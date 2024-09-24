@@ -12,30 +12,24 @@ public class Digits {
         Scanner input = new Scanner(System.in);
         
         int tens = 0;
-        int ones = 0;
+        int ones;
       
         System.out.print("Enter a 2 digit number: ");
         int number = input.nextInt();
 
-if (number <= 99 & number < 99)   
-{
+
         tens = (number - (tens*1)) / 10;  
-        System.out.printf("\nTens place digit: " + tens);
+        System.out.printf(" Tens place digit: " + tens);
 
         ones = (number - (tens*10)) ;  
-        System.out.printf("\nOnes place digit: " + ones);   
+        System.out.printf(" Ones place digit: " + ones);   
 }
                          
                                                                     
-{      
-if (number > 99)
-        System.out.println("\nError! Number is more then 2 digits, please enter a 2 digit number.");
-      
-}
 
 
 
 }
-}
+
 
 
