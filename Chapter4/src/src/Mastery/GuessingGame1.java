@@ -19,7 +19,9 @@ public class GuessingGame1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
- String guess;
+
+		
+		String guess;
 		
 		Scanner input = new Scanner(System.in);
 		
