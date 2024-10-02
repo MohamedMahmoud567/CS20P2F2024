@@ -26,9 +26,9 @@ public class GuessingGame1 {
 		Scanner input = new Scanner(System.in);
 		
 		
-		String secretWord = "Apple";
+		String secretWord = "19";
 		
-		System.out.println("Please guess the word:  ");
+		System.out.println("Please guess the number, hint it is between 1-30 :  ");
 		
 	
 				guess = input.next();
@@ -36,7 +36,7 @@ public class GuessingGame1 {
 				
 				if(guess.equalsIgnoreCase(secretWord))
 				{
-					System.out.println("You got the word correct");
+					System.out.println("You got the number correct");
 				}
 				else
 				{
@@ -49,9 +49,10 @@ public class GuessingGame1 {
 /*
 Screen dump test case 1
 
-Please guess the word:  
-cheese
-You've guessed it incorrectly
+Please guess the number, hint it is between 1-30 :  
+19
+You got the number correct
+
 
 
 
@@ -59,9 +60,7 @@ You've guessed it incorrectly
 Test case 2
 
 
-Please guess the word:  
-apple
-You got the word correct
+
 
 
  
