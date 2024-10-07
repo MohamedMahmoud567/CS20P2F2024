@@ -24,7 +24,7 @@ public class GradeAvgPart2 {
 		  System.out.print("Please Enter the fifth grade: ");		  
 		  int Num5 = input.nextInt();
 		   
-		  System.out.println("The average of all five numbers is: %" + (Num1 + Num2 + Num3 + Num4 + Num5) );
+		  System.out.println("The average of all five numbers is: " + (Num1 + Num2 + Num3 + Num4 + Num5) );
 		 }
 		}
 

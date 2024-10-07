@@ -57,7 +57,7 @@ public class ElectionMastery {
 
 	}
 
-	
+	}
 	
 	
 	/* Screen Dump
@@ -83,16 +83,6 @@ The number for all the votes in all is: 16195
 
 	 
 	 */
-	 
-   
-   
-   
-   
-   
-    
-    
-    
- 
-    
 
-}
+
+

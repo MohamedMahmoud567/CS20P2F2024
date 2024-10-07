@@ -18,19 +18,15 @@ public class GuessingGame1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-
 		
 		String guess;
 		
 		Scanner input = new Scanner(System.in);
 		
-		
 		String secretWord = "19";
 		
 		System.out.println("Please guess the number, hint it is between 1-30 :  ");
 		
-	
 				guess = input.next();
 				
 				
@@ -61,6 +57,9 @@ Test case 2
 
 
 
+Please guess the number, hint it is between 1-30 :  
+11
+You've guessed it incorrectly
 
 
  

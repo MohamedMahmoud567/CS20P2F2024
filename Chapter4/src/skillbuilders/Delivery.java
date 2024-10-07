@@ -43,7 +43,7 @@ public class Delivery {
             }
  
         if (incorrect) {
-            System.out.println(" lenght or width or height isn't following requirments");
+            System.out.println(" lenght or width or height isn't following the requirements ");
            
         } else {
             System.out.println("Accept");

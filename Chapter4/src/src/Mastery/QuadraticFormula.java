@@ -36,7 +36,7 @@ public class QuadraticFormula {
 	Double B =  Userinput.nextDouble();
 	
 	System.out.println("Please enter a value for c: ");
-	Double C =  Userinput.nextDouble();
+    Double C =  Userinput.nextDouble();
 	
 	
 	Double Root1;
