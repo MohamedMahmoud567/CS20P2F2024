@@ -27,17 +27,17 @@ public class Digits_Mastery {
         int tens;
         int ones;
          
-        System.out.print("Please enter a 3 digit number: ");
+        System.out.println("Please enter a 3 digit number: ");
         int number = input.nextInt();
 
         hundreds = number / 100;
-        System.out.print(" Hundreds place digit: " + hundreds );
+        System.out.println(" Hundreds place digit: " + hundreds );
 
         tens = (number - (hundreds*100)) / 10;  
-        System.out.print(" Tens place digit: " + tens );
+        System.out.println(" Tens place digit: " + tens );
     
         ones = (number - (tens*10) - (hundreds*100));   
-        System.out.print(" Ones place digit: " + ones );   
+        System.out.println(" Ones place digit: " + ones );   
 
 }
 
