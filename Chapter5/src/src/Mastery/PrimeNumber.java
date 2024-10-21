@@ -55,7 +55,22 @@ public class PrimeNumber {
 	
     }
 
+/*
+ 
+ Enter any number:
+23
+23 is a Prime Number
+ 
+ screen dump test case 2
+ 
+ 
+ Enter any number:
+12
+12 is not a Prime Number
 
+ 
+ 
+ */
 
 	
 	
