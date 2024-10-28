@@ -1,3 +1,18 @@
+/*
+
+Program: Prime number modification       Date: October 28, 2024
+
+Purpose: A program to help you with prime numbers.
+
+
+School: CHHS
+Course: Computer Science 20
+ 
+*/
+
+
+
+
 package src.Mastery;
 
 import java.util.Scanner;
@@ -34,4 +49,17 @@ public class PrimeNumberModification {
 	    }
 	}
 
+
+/* screen dump
+Enter any number:
+234234
+234234 is not a Prime Number
+
+
+Screen dump test case 2
+Enter any number:
+3
+3 is a Prime Number
+
+*/
 
