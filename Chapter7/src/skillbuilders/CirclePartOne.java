@@ -2,10 +2,10 @@ package skillbuilders;
 
 public class CirclePartOne {
 
-	private double radius;
+	double radius;
 	private static double PI = 3.14;
 	
-	//Constructor method
+	
 	
 	public CirclePartOne() 
 	{
