@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="j6hHlRjf1uov1y0QqEX4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.996;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="E42Fa3JOsW67UtIp8v-r-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="160" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-5" value="Digits extractor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-6" value="&lt;span style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204); font-family: Consolas; font-size: 8pt; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color:#cc6c1d;&quot;&gt;switch&lt;/span&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#f9faf4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#f3ec79;&quot;&gt;choice&lt;/span&gt;&lt;span style=&quot;color:#f9faf4;&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-8" value="&lt;span style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;color:#cccccc;background-color:#2f2f2f;font-family:&amp;quot;Consolas&amp;quot;;font-size:8pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc6c1d;&quot;&gt;while&lt;/span&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#f9faf4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#cc6c1d;&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;color:#f9faf4;&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-9" value="&lt;span style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;color:#cccccc;background-color:#2f2f2f;font-family:&amp;quot;Consolas&amp;quot;;font-size:8pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color:#1290c3;&quot;&gt;System&lt;/span&gt;&lt;span style=&quot;color:#e6e6fa;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color:#8ddaf8;font-style:italic;font-weight:bold;&quot;&gt;out&lt;/span&gt;&lt;span style=&quot;color:#e6e6fa;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color:#a7ec21;&quot;&gt;println&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-10" value="&lt;span style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;span style=&quot;color:#cccccc;background-color:#2f2f2f;font-family:&amp;quot;Consolas&amp;quot;;font-size:8pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#cc6c1d;&quot;&gt;public&lt;/span&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#cc6c1d;&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color:#1290c3;&quot;&gt;DigitExtractor&lt;/span&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="sourcePoint" />
+            <mxPoint x="560" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E42Fa3JOsW67UtIp8v-r-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-12" value="&lt;div style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;color:#cccccc;background-color:#2f2f2f;font-family:&amp;quot;Consolas&amp;quot;;font-size:8pt;white-space:pre;&quot;&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Enter an integer: 324&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Input W for whole number&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Input O for ones place&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Input T for tens&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Input H for hundreds&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Input Q to quit&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Enter your choice: h&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;Hundreds digit: 3&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0;&quot;&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E42Fa3JOsW67UtIp8v-r-14" value="Repeat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
