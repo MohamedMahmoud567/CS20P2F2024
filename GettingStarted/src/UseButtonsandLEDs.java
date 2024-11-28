@@ -20,7 +20,7 @@ public class UseButtonsandLEDs {
         greenLED.setHubPort(4);
         greenLED.setIsHubPortDevice(true);
 
-        // Open | Connect your program to your physical devices.
+        // Open
         redButton.open(1000);
         redLED.open(1000);
         greenButton.open(1000);
