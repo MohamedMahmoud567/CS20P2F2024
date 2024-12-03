@@ -5,45 +5,46 @@ import com.phidget22.*;
 public class HotOrCold {
 
     public static void main(String[] args) throws Exception {
-      
-        TemperatureSensor temperatureSensor = new TemperatureSensor();
+        // Create and open devices
+        TemperatureSensor tempSensor = new TemperatureSensor();
         DigitalOutput greenLED = new DigitalOutput();
         DigitalOutput redLED = new DigitalOutput();
 
-     
-        temperatureSensor.open(1000);
-
-       
-        greenLED.setHubPort(0); 
+        // Set the address for the LEDs
+        greenLED.setHubPort(5);
         greenLED.setIsHubPortDevice(true);
-        greenLED.open(1000);
-        
         redLED.setHubPort(1);
         redLED.setIsHubPortDevice(true);
+        
+        // Open devices
+        tempSensor.open(1000);
+        greenLED.open(1000);
         redLED.open(1000);
 
         while (true) {
-          
-            if (temperatureSensor.getTemperature() >= 20.0 && temperatureSensor.getTemperature() <= 24.0) {
-                
-                greenLED.setState(true);
-                redLED.setState(false);
-            } else {
-                // If temperature is out of range, turn on the red LED, turn off green LED
-                redLED.setState(true);
-                greenLED.setState(false);
-            
-
-     
-            System.out.println("Temperature: " + temperatureSensor.getTemperature() + " °C");
-
            
-            Thread.sleep(1000); 
-        }
+            double currentTempCelsius = tempSensor.getTemperature();
+            int currentTemp = (int) Math.round(currentTempCelsius);
+            
+           
+            double currentTempFahrenheit = (currentTempCelsius * 9/5) + 32;
+            
+          
+            System.out.println("Current Temperature: " + currentTemp + "°C (" + Math.round(currentTempFahrenheit) + "°F)");
+
+         
+            if (currentTemp >= 21 && currentTemp <= 24) {
+                greenLED.setState(true); 
+                redLED.setState(false);   
+            } else {
+                greenLED.setState(false); 
+                redLED.setState(true);    
+            }
+
+       
+            Thread.sleep(1000);  
         }
     }
 }
-
-
 
 
